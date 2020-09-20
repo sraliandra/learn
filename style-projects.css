@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 238, 238);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#whatsapp {
+    position: fixed;
+    max-width: 100px;
+    top: 80%;
+    left: 90%;
+}
+
+#whatsapp p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#whatsapp img {
+    max-width: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: none;
+}
+
+header {
+    background: url("images/header.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    padding: 100px 0;
+}
+
+header h1 {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+header img {
+    max-height: 60px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    top: 15px;
+    left: 100px;
+    z-index: 1;
+}
+
+main {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgb(245, 251, 255);
+    border: 2px solid rgb(65, 136, 218);
+}
+
+nav {
+    padding: 10px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav.box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(15, 95, 185);
+    font-weight: 600;
+    font-size: large;
+}
+
+nav a:visited {
+    color: none;
+}
+
+nav a:hover {
+    font-weight: bolder;
+    color: rgb(0, 0, 110);
+}
+
+#content {
+    padding: 0;
+}
+
+.new-project {
+    padding: 30px 50px;
+    margin: 20px 0;
+    font-size: 25px;
+    overflow: auto;
+}
+
+.about img {
+    max-width: 35%;
+    min-width: 200px;
+    border-radius: 15px;
+    float: right;
+    margin: 0px;
+    padding: 10px;
+}
+
+.about h3 {
+    float: left;
+    max-width: 60%;
+    margin: 0;
+    padding: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.program {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.program-item {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.program-item .box {
+    flex-grow: 1;
+    padding: 20px 40px;
+    margin: 0 20px;
+    width: 10px;
+    text-align: center;
+    background-color: rgb(0, 56, 102);
+    color: white;
+    border: none;
+}
+
+.program-item .box img {
+    max-width: 120px;
+    min-width: 80px;
+}
+
+footer {
+    padding: 40px;
+    background-color: rgb(35, 47, 65);
+    text-align: center;
+    color: whitesmoke;
+}
