@@ -36,7 +36,7 @@ a:visited {
 }
 
 header {
-    background: url("images/header.jpg");
+    background: url("header.jpg");
     background-position: center;
     background-size: cover;
     font-family: 'Bebas Neue', cursive;
